@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LogiQ - Crear cuenta</title>
+        <meta name="author" content="Ksenia Konnova">
+        <meta name="description" content="LogiQ es una plataforma digital para la gestión de la cadena de suministro, diseñada para optimizar procesos logísticos y mejorar la eficiencia operativa.">
+        <meta name="keywords" content="LogiQ, logística, cadena de suministro, gestión logística, plataforma digital, gestión de almacén">
+        <meta property="og:title" content="LogiQ - gestión de cadena de suministro" />
+        <meta property="og:description" content="LogiQ es una plataforma digital para optimizar procesos logísticos y mejorar la eficiencia operativa." />
+        <meta property="og:image" content="https://drive.google.com/file/d/1wcHiLobLjmnjs577xki7sExADkIkrkjz/view?usp=drive_link" />
+        <meta property="og:url" content="https://www.behance.net/kseniakonnova" />
+        <meta property="og:type" content="website" />
+        <link href="favicon.ico" rel="icon" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    </head>
+<body id="body-login">
+<main id="main-login">
+    <div class="content">
+        <div class="content-login">
+            <img src="logo-large.svg" alt="LogiQ Logo" id="logo">
+            <h1>LogiQ</h1>
+            <p class="title_medium">Plataforma de gestión integral de tu cadena de suministro</p>
+        </div>    
+    </div>
+    <div class="content">
+        <div class="content-login">
+        <form class="form">
+            <h3>Crear cuenta</h3>
+            <fieldset class="fieldset">
+                <div class="input">
+                    <div class="label">
+                        <label for="email" class="label_medium">Correo electrónico</label>
+                    </div>
+                    <input type="email" style="padding-left: var(--padding-8);" name="email" id="email" class="text-input" placeholder="Introduce tu correo" required>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label for="password" class="label_medium">Contraseña</label>
+                    </div>
+                    <input type="password" style="padding-left: var(--padding-8);" name="password" id="password" class="text-input" placeholder="Introduce tu contraseña" required>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label for="password-repeat" class="label_medium">Repetir contraseña</label>
+                    </div>
+                    <input type="password" style="padding-left: var(--padding-8);" name="password-repeat" id="password-repeat" class="text-input" placeholder="Repite tu contraseña" required>
+                </div>
+                <div class="check-radio">
+                    <input type="checkbox" class="checkbox" name="privacy" id="privacy" required>
+                    <label for="privacy" class="body_large">He leído y acepto Política de </label>
+                </div>
+                <button type="submit" class="button-primary-solid" style="width: 100%;">
+                    <span class="material-symbols-outlined">check</span>
+                    <span class="label_large">Aceptar</span>
+                </button>
+            </fieldset>
+            <fieldset class="fieldset">
+                <span class="body-medium--subtle">¿Ya tienes cuenta en LogiQ?</span>
+                <a href="login.html" class="a-href">
+                    <span class="label_large">Iniciar sesión</span>
+                </a>
+            </fieldset>
+        </form>
+        </div> 
+    </div>
+</main>
+</body>
+</html>

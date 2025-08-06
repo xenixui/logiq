@@ -37,32 +37,41 @@
                     <div class="label">
                         <label for="email" class="label_medium">Correo electrónico</label>
                     </div>
-                    <input type="email" style="padding-left: var(--padding-8);" name="email" id="email" class="text-input" placeholder="Introduce tu correo" required>
+                    <input type="email" class="text-input no-icon" name="email" id="email" placeholder="Introduce tu correo" required>
                 </div>
                 <div class="input">
                     <div class="label">
                         <label for="password" class="label_medium">Contraseña</label>
                     </div>
-                    <input type="password" style="padding-left: var(--padding-8);" name="password" id="password" class="text-input" placeholder="Introduce tu contraseña" required>
+                    <input type="password" class="text-input no-icon" name="password" id="password" placeholder="Introduce tu contraseña" required>
                 </div>
                 <div class="input">
                     <div class="label">
                         <label for="password-repeat" class="label_medium">Repetir contraseña</label>
                     </div>
-                    <input type="password" style="padding-left: var(--padding-8);" name="password-repeat" id="password-repeat" class="text-input" placeholder="Repite tu contraseña" required>
+                    <input type="password" class="text-input no-icon" name="password-repeat" id="password-repeat" placeholder="Repite tu contraseña" required>
                 </div>
-                <div class="check-radio">
-                    <input type="checkbox" class="checkbox" name="privacy" id="privacy" required>
-                    <label for="privacy" class="body_large">He leído y acepto Política de </label>
+                <div class="privacy">
+                    <div class="check-radio">
+                        <input type="checkbox" class="checkbox" name="privacy" id="privacy" required>
+                        <label for="privacy" class="body_large">He leído y acepto </label>
+                    </div>
+                    <a href="privacy.html" class="a primary">
+                        <span class="label_large">Política de privacidad</span>
+                    </a>
+                    <span class="body_large"> y </span>
+                    <a href="legal.html" class="a primary">
+                        <span class="label_large">Términos y condiciones</span>
+                    </a>
                 </div>
-                <button type="submit" class="button-primary-solid" style="width: 100%;">
+                <button type="submit" class="button primary solid" style="width: 100%;">
                     <span class="material-symbols-outlined">check</span>
                     <span class="label_large">Aceptar</span>
                 </button>
             </fieldset>
             <fieldset class="fieldset">
                 <span class="body-medium--subtle">¿Ya tienes cuenta en LogiQ?</span>
-                <a href="login.html" class="a-href">
+                <a href="login.html" class="a primary">
                     <span class="label_large">Iniciar sesión</span>
                 </a>
             </fieldset>
